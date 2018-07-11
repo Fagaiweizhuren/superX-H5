@@ -1,0 +1,58 @@
+.sxh {
+  height: 100%;
+}
+.sxh .content-footer {
+  height: 50px;
+}
+.sxh .content-box {
+  height: calc(100% - 50px);
+}
+.main-page {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+}
+.main-page .sx-page {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.main-page .sx-page .sx-in-router {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.sx-view {
+  height: 100%;
+}
+/**
+ * 页面 跳转 过渡动画
+ * ---------------------
+ */
+.sx-fade-enter-active,
+.sx-fade-leave-active {
+  transition: opacity .2s;
+}
+.sx-fade-enter,
+.sx-fade-leave-to {
+  opacity: 0;
+}
+/**
+ * 设置不同的进入和离开动画
+ * 设置持续时间和动画函数
+ * --------------------------
+ */
+.sx-slide-fade-enter-active {
+  transition: all .2s ease;
+}
+.sx-slide-fade-leave-active {
+  transition: all 0.2s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.sx-slide-fade-enter,
+.sx-slide-fade-leave-to {
+  transform: translate3d(0, -5px, 0);
+  opacity: 0;
+}

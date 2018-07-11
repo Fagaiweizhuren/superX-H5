@@ -1,0 +1,64 @@
+@import './mixins/index';
+.sxh {
+  height: 100%;
+
+  .content-footer {
+    height: 50px;
+  }
+  .content-box {
+    height: ~"calc(100% - 50px)";
+  }
+}
+.main-page {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+
+  .sx-page {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    .sx-in-router {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+  }
+}
+
+// view-box
+.sx-view {
+  height: 100%;
+}
+
+/**
+ * 页面 跳转 过渡动画
+ * ---------------------
+ */
+.sx-fade-enter-active, .sx-fade-leave-active {
+  transition: opacity .2s;
+}
+.sx-fade-enter, .sx-fade-leave-to {
+  opacity: 0;
+}
+
+/**
+ * 设置不同的进入和离开动画
+ * 设置持续时间和动画函数
+ * --------------------------
+ */
+ .sx-slide-fade-enter-active {
+   transition: all .2s ease;
+ }
+ .sx-slide-fade-leave-active {
+   transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+ }
+ .sx-slide-fade-enter, .sx-slide-fade-leave-to {
+  transform: translate3d(0, -5px, 0);
+  //  transform: translate(-5px);
+   opacity: 0;
+ }
