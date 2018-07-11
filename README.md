@@ -31,11 +31,11 @@ use vuex-router-sync sync current $route as part of vuex store's state
 
 ## demo
 
-<p align="center">
+<p>
   <a>
-    <img width="150" src="./git-image/demo1.jpg">
+    <img width="350" src="./git-image/demo1.jpg">
   </a>
   <a>
-    <img width="150" src="./git-image/demo2.jpg">
+    <img width="350" src="./git-image/demo2.jpg">
   </a>
 </p>
