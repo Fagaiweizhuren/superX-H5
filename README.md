@@ -28,3 +28,14 @@ npm test
 this project based on [VUX](https://doc.vux.li/zh-CN/)
 
 use vuex-router-sync sync current $route as part of vuex store's state
+
+## demo
+
+<p align="center">
+  <a>
+    <img width="150" src="./git-image/demo1.jpg">
+  </a>
+  <a>
+    <img width="150" src="./git-image/demo2.jpg">
+  </a>
+</p>
