@@ -39,6 +39,14 @@ use vuex-router-sync sync current $route as part of vuex store's state
 
 添加 iOS 标识(`<html class="ios">`)，以便对Android 和 iOS 不同系统做特殊处理
 
+## 目标设定
+
+- 路由切换增加动画效果，增加用户体验
+
+- 使用第三方组件库UVX满足日常开发需求
+
+- 逐步增加组件使用范例，探索最佳实践
+
 ## demo
 
 <p>
