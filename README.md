@@ -32,9 +32,12 @@ use vuex-router-sync sync current $route as part of vuex store's state
 ## 从设计到开发
 
 从设计到开发完整的 rem 适配方案
+
 设计稿 750px, 前端开发 实际像素 / 100 = value rem
-添加 像素密度 标识(<html data-dpr="2">)，安卓像素密度为1，iOS 按照实际设备设置data-dpr
-添加 iOS 标识(<html class="ios">)，以便对Android 和 iOS 不同系统做特殊处理
+
+添加 像素密度 标识(`<html data-dpr="2">`)，安卓像素密度为1，iOS 按照实际设备设置data-dpr
+
+添加 iOS 标识(`<html class="ios">`)，以便对Android 和 iOS 不同系统做特殊处理
 
 ## demo
 
